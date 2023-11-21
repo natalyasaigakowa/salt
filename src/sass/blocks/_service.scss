@@ -1,0 +1,39 @@
+.service {
+    background: #F8F8F8;
+    &__wrap {
+        padding: 62px 51px 48px 52px;
+    }
+    &__title {
+        margin-bottom: 40px;
+        font-size: 34px;
+        font-weight: 700;
+        line-height: 72px;
+        text-align: center;
+    }
+    &__list {
+        display: grid;
+        gap: 60px;
+    }
+    &__icon {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 28px;
+    }
+    &__subtitle {
+        margin-bottom: 16px;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 20px;
+        letter-spacing: -0.36px;
+        text-transform: uppercase;
+    }
+    &__descr {
+        color: var(--dark-color);
+        font-size: 15px;
+        line-height: 19px;
+        letter-spacing: -0.12px;
+    }
+        
+
+}

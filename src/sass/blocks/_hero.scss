@@ -1,5 +1,71 @@
-// .promo {
+.hero {
+    position: relative;
+    margin-top: -106px;
+    background-color: var(--main-color);
+    background-image: url("../../img/bg-min.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: var(--white-color);
+    &::after {
+        content: "";
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 0;
+        width: 102%;
+        height: 103%;
+        background-image: url("../../icons/hero-bottom-max.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: bottom;   
+    }  
+    &__wrap {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        padding: 282px 28px 53px 28px;
+        &::before {
+            content: '';
+            position: absolute;
+            top: 132px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100px;
+            height: 84px;
+            background-image: url("../../icons/twitter.svg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }        
+    }
+    &__text {
+        display: flex;
+        flex-direction: column;
+    }
+    &__title {
+        margin-bottom: 16px;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 40px;
+    }
+    &__descr {
+        margin-bottom: 27px;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 20px;
+    }
+    &__call {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 19px;
+        margin: 0 auto;
 
-// }
+        font-size: 13px;
+        font-weight: 700;
+        line-height: 20px;
+
+    }
+}
 
 

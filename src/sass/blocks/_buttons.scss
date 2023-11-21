@@ -1,2 +1,18 @@
+.button {
+    display: inline-block;
+    width: 174px;
+    padding: 4px 40px;
 
+    color: var(--white-color);
+    font-family: inherit;
+    font-weight: 700;
+    line-height: 45px;
+    background: var(--accent-color);
+    border-radius: 4px;
+    text-transform: uppercase;
+    text-decoration: none;
+    &__hero {
+        margin-bottom: 68px;
+    }
+}
 
