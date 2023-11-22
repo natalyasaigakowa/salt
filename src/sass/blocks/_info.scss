@@ -1,0 +1,25 @@
+.info {
+    &__wrap {
+        display: flex;
+        flex-direction: column;
+        padding: 100px 28px 96px 28px;
+    }
+    &__title {
+        margin-bottom: 16px;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 32px;
+    }
+    &__descr {
+        margin-bottom: 30px;
+        width: 295px;
+        font-size: 15px;
+        line-height: 21px;
+        letter-spacing: -0.3px;
+    }
+    &__video {
+        margin-bottom: 40px;
+        width: 319px;
+        height: 196px;
+    }
+}

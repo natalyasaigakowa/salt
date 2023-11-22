@@ -1,6 +1,5 @@
 .button {
     display: inline-block;
-    width: 174px;
     padding: 4px 40px;
 
     color: var(--white-color);
@@ -11,8 +10,20 @@
     border-radius: 4px;
     text-transform: uppercase;
     text-decoration: none;
+    text-align: center;
     &__hero {
         margin-bottom: 68px;
+        align-self: flex-start;
+    }
+    &__info {
+        padding: 14px 48px;
+        margin: 0 auto;
+        line-height: 18px;       
+    }
+    &__application {
+        padding: 16px 82px;
+        margin: 0 auto;
+        line-height: 18px;   
     }
 }
 

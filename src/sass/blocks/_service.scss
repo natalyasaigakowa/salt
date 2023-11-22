@@ -4,11 +4,23 @@
         padding: 62px 51px 48px 52px;
     }
     &__title {
+        position: relative;
         margin-bottom: 40px;
         font-size: 34px;
         font-weight: 700;
         line-height: 72px;
         text-align: center;
+        &::before {
+            content: '';
+            position: absolute;
+            top: -14px;
+            right: -10px;
+            width: 46px;
+            height: 46px;
+            background-image: url("../../icons/services-decor.svg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
     }
     &__list {
         display: grid;
@@ -18,6 +30,30 @@
         display: block;
         margin: 0 auto;
         margin-bottom: 28px;
+        &-first {
+            width: 106px;
+            height: 109px;
+        }
+        &-second {
+            width: 106px;
+            height: 100px
+        }
+        &-third {
+            width: 100px;
+            height: 100px;
+        }
+        &-fourth {
+            width: 100px;
+            height: 105px;
+        }
+        &-fifth {
+            width: 191px;
+            height: 127px;
+        }
+        &-sixth {
+            width: 210px;
+            height: 108px;
+        }
     }
     &__subtitle {
         margin-bottom: 16px;
