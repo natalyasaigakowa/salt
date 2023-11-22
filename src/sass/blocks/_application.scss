@@ -1,7 +1,7 @@
 .application {
     background: #232323;
     &__wrap {
-        padding: 40px 36px 40px 28px;
+        padding: 40px 36px 42px 28px;
     }
     &__title {
         margin-bottom: 48px;
@@ -52,7 +52,7 @@
         line-height: 7px; 
         border-radius: 8px;
         border: 1px solid #292929;
-        background: #FFF;
+        background: var(--white-color);
     }
     &__textarea {
         padding: 15px 13px;
@@ -61,10 +61,13 @@
 
     &__input:first-child {
         &::before {
-            content: '';
-            
+            content: '';            
         }
-
+    }
+    &__bottom {
+        background: var(--white-color);
+        width: 100%;
+        min-height: 97px;        
     }
 
 
