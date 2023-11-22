@@ -1,6 +1,5 @@
 window.addEventListener('DOMContentLoaded', () => {
     const menu = document.querySelector('.header__nav'),
-    menuItem = document.querySelectorAll('.menu_item'),
     hamburger = document.querySelector('.header__hamburger');
 
     hamburger.addEventListener('click', () => {
@@ -8,10 +7,18 @@ window.addEventListener('DOMContentLoaded', () => {
         menu.classList.toggle('header__nav-active');
     });
 
-    menuItem.forEach(item => {
-        item.addEventListener('click', () => {
-            hamburger.classList.toggle('hamburger_active');
-            menu.classList.toggle('header__nav-active');
-        })
-    })
+    const swiper = new Swiper('.swiper', {
+        speed: 400,
+        spaceBetween: 100,
+
+        pagination: {
+            el: '.swiper-pagination',
+        },
+        scrollbar: {
+            el: '.swiper-scrollbar',
+        },
+      });
+
+    
 })
+
