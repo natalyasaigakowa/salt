@@ -4,25 +4,34 @@
         flex-direction: column;
         padding: 6.25rem 1.75rem 6rem 1.75rem;
     }
+    &__text {
+        display: flex;
+        flex-direction: column;
+    }
     &__title {
         margin-bottom: 1rem;
         font-size: 1.5rem;
         font-weight: 700;
         line-height: 2rem;
+        order: 1;
     }
     &__descr {
+        color: #878787;
         margin-bottom: 1.875rem;
         width: 78.667vw;
         font-size: .9375rem;
         line-height: 1.3125rem;
         letter-spacing: -0.0187rem;
+        order: 2;
     }
     &__play {
+        order: 3;
         position: relative;
         margin-bottom: 2.5rem;
     }
     &__picture {
         position: relative;
+
         &-over {
             position: absolute;
             bottom: 1.75rem;
