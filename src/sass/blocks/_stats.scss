@@ -5,20 +5,20 @@
     &__list {
         display: flex;
         flex-direction: column;
-        gap: 68px;
+        gap: 4.25rem;
         text-align: center;
     }
     &__title {
-        margin-bottom: 12px;
-        font-size: 42px;
+        margin-bottom: .75rem;
+        font-size: 2.625rem;
         font-weight: 700;
-        line-height: 50px;
+        line-height: 3.125rem;
     }
     &__descr {
-        font-size: 13px;
+        font-size: .8125rem;
         font-weight: 700;
-        line-height: 16px;
+        line-height: 1rem;
         text-transform: uppercase;
-        letter-spacing: -0.26px;
+        letter-spacing: -0.0163rem;
     }
 }

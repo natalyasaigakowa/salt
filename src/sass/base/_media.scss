@@ -1,8 +1,110 @@
-// @media (min-width: 480px) {
-// }
+@media (min-width: 480px) {
+    .hero {
+        &__wrap {
+            padding: 8.3125rem 2.75rem 3.3125rem 2.75rem;
+        }
+    }
+    .service {
+        &__wrap {
+            padding: 3.875rem 3.1875rem 3rem 3.25rem;
+        }
+        &__list {
+            grid-template-columns: repeat(1, 380px);
+        }
+    }
+    .info {
+        &__wrap {
+            padding: 6.25rem 2.75rem 6rem 2.75rem;
+        }
+    }
+    .application {
+        &__wrap {
+            padding: 2.5rem 3.25rem 2.625rem 2.75rem;
+        }
+    }
+}
 
-// @media (min-width: 800px) {
-// }
+@media (min-width: 800px) {
+    .header {
+        &__hamburger {
+            display: none;
+        }
+        &__nav {
+            position: relative;
+            display: flex;
+            padding: 0rem 0.75rem;
+            background: none;
+            transition: none;
+        }
+        .nav__list {
+            flex-direction: row;
+        }
+        .nav__link {
+            flex-direction: row;
+            padding: 15px 0;
+        }
+    }
+    .hero {
+        &__text {
+            padding-top: 5.3125rem;
+            &::before {
+                right: 60px;
+                left: auto;
+                top: 50%;
+                transform: translateY(-50%);
+            }
+        }
+        &__descr {
+            width: 60%;
+        }
+    }
+    .swiper {
+        &-pagination {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            align-items: flex-end;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+            top: 50%;
+            transform: translateY(-50%);
+            right: 0;
+            left: auto;
+            width: 5%;
+        }
+    }
+    .service {
+        &__list {
+            grid-template-columns: repeat(2, 45%);
+        }
+    }
+    .application {
+        &__list {
+            width: 80%;
+        }
+    }
+    .footer {
+        &__menu {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.25rem;
+            padding: 0 0.75rem 8.25rem 0.75rem;
+        }
+        &__nav {
+            gap: 0.25rem;
+        }
+        .nav__wrap {
+            align-items: flex-start;
+        }
+        &__contact {
+            align-items: flex-start;
+        }
+    }
+
+}
 
 // @media (min-width: 1080px) {    
 // }

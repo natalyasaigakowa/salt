@@ -1,29 +1,29 @@
 .button {
     display: inline-block;
-    padding: 4px 42px;
+    padding: .25rem 2.625rem;
 
     color: var(--white-color);
     font-family: inherit;
     font-weight: 700;
-    line-height: 45px;
+    line-height: 2.8125rem;
     background: var(--accent-color);
     border-radius: 4px;
     text-transform: uppercase;
     text-decoration: none;
     text-align: center;
     &__hero {
-        margin-bottom: 68px;
+        margin-bottom: 4.25rem;
         align-self: flex-start;
     }
     &__info {
-        padding: 14px 48px;
+        padding: .875rem 3rem;
         margin: 0 auto;
-        line-height: 18px;       
+        line-height: 1.125rem;       
     }
     &__application {
-        padding: 16px 82px;
+        padding: 1rem 5.125rem;
         margin: 0 auto;
-        line-height: 18px;   
+        line-height: 1.125rem;   
     }
 }
 

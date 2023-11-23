@@ -1,20 +1,20 @@
 .service {
     background: #F8F8F8;
     &__wrap {
-        padding: 62px 51px 48px 52px;
+        padding: 3.875rem 3.1875rem 3rem 3.25rem;
     }
     &__title {
         position: relative;
-        margin-bottom: 40px;
-        font-size: 34px;
+        margin-bottom: 2.5rem;
+        font-size: 2.125rem;
         font-weight: 700;
-        line-height: 72px;
+        line-height: 4.5rem;
         text-align: center;
         &::before {
             content: '';
             position: absolute;
-            top: -14px;
-            right: -10px;
+            top: -0.875rem;
+            right: -0.625rem;
             width: 46px;
             height: 46px;
             background-image: url("../../icons/services-decor.svg");
@@ -24,12 +24,13 @@
     }
     &__list {
         display: grid;
-        gap: 60px;
+        gap: 3.75rem;
+        justify-content: center;
     }
     &__icon {
         display: block;
         margin: 0 auto;
-        margin-bottom: 28px;
+        margin-bottom: 1.75rem;
         &-first {
             width: 106px;
             height: 109px;
@@ -56,19 +57,19 @@
         }
     }
     &__subtitle {
-        margin-bottom: 16px;
-        font-size: 18px;
+        margin-bottom: 1rem;
+        font-size: 1.125rem;
         font-style: normal;
         font-weight: 700;
-        line-height: 20px;
-        letter-spacing: -0.36px;
+        line-height: 1.25rem;
+        letter-spacing: -0.0225rem;
         text-transform: uppercase;
     }
     &__descr {
         color: var(--dark-color);
-        font-size: 15px;
-        line-height: 19px;
-        letter-spacing: -0.12px;
+        font-size: .9375rem;
+        line-height: 1.1875rem;
+        letter-spacing: -0.0075rem;
     }
         
 
